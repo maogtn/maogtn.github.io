@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="br-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1025"/>
+      <stop offset="100%" stop-color="#2d1840"/>
+    </linearGradient>
+    <linearGradient id="br-floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1230"/>
+      <stop offset="100%" stop-color="#0d0818"/>
+    </linearGradient>
+    <linearGradient id="br-wardrobe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2e1e10"/>
+      <stop offset="100%" stop-color="#3d2a18"/>
+    </linearGradient>
+    <linearGradient id="br-mirror" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a4060" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#2a3050" stop-opacity="0.8"/>
+    </linearGradient>
+    <radialGradient id="br-glow" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#c870e0" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#c870e0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="br-vanity" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#ffe0a0" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffe0a0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#br-bg)"/>
+  <!-- Floor -->
+  <polygon points="0,380 800,340 800,500 0,500" fill="url(#br-floor)"/>
+  <!-- Perspective lines -->
+  <line x1="0" y1="420" x2="800" y2="395" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="0" y1="460" x2="800" y2="445" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <!-- Wardrobe / fitted unit left -->
+  <rect x="20" y="100" width="220" height="290" rx="4" fill="url(#br-wardrobe)"/>
+  <!-- Wardrobe doors -->
+  <rect x="25" y="105" width="100" height="280" rx="3" fill="#2a1a0e"/>
+  <rect x="130" y="105" width="105" height="280" rx="3" fill="#2a1a0e"/>
+  <!-- Door handles -->
+  <circle cx="121" cy="248" r="5" fill="#a08060"/>
+  <circle cx="138" cy="248" r="5" fill="#a08060"/>
+  <!-- Door seam line -->
+  <line x1="128" y1="105" x2="128" y2="385" stroke="rgba(0,0,0,0.5)" stroke-width="2"/>
+  <!-- Wardrobe top rail -->
+  <rect x="20" y="100" width="220" height="16" rx="4" fill="#3a2818"/>
+  <!-- Decorative top panel -->
+  <rect x="25" y="116" width="210" height="18" rx="2" fill="rgba(255,255,255,0.04)"/>
+  <!-- Mirror panel in wardrobe door -->
+  <rect x="35" y="130" width="80" height="200" rx="4" fill="url(#br-mirror)"/>
+  <rect x="140" y="130" width="85" height="200" rx="4" fill="url(#br-mirror)"/>
+  <!-- Mirror sheen -->
+  <line x1="35" y1="130" x2="75" y2="240" stroke="rgba(255,255,255,0.08)" stroke-width="8"/>
+  <line x1="140" y1="130" x2="180" y2="240" stroke="rgba(255,255,255,0.08)" stroke-width="8"/>
+  <!-- Vanity/dressing table -->
+  <rect x="290" y="260" width="220" height="12" rx="4" fill="#3a2818"/>
+  <rect x="280" y="272" width="240" height="100" rx="4" fill="#2e1e10"/>
+  <!-- Vanity legs -->
+  <rect x="293" y="372" width="12" height="22" rx="3" fill="#1e1208"/>
+  <rect x="493" y="372" width="12" height="22" rx="3" fill="#1e1208"/>
+  <!-- Vanity mirror (oval) -->
+  <ellipse cx="400" cy="195" rx="75" ry="90" fill="none" stroke="#4a3220" stroke-width="8"/>
+  <ellipse cx="400" cy="195" rx="67" ry="82" fill="url(#br-mirror)"/>
+  <!-- Mirror sheen -->
+  <line x1="340" y1="135" x2="365" y2="200" stroke="rgba(255,255,255,0.1)" stroke-width="10"/>
+  <!-- Mirror stand -->
+  <rect x="393" y="280" width="14" height="25" rx="3" fill="#4a3220"/>
+  <rect x="370" y="302" width="60" height="8" rx="4" fill="#4a3220"/>
+  <!-- Vanity lights (Hollywood bulbs) -->
+  <circle cx="325" cy="120" r="8" fill="#ffe8a0" opacity="0.9"/>
+  <circle cx="325" cy="120" r="14" fill="#ffe8a0" opacity="0.2"/>
+  <circle cx="350" cy="108" r="8" fill="#ffe8a0" opacity="0.9"/>
+  <circle cx="350" cy="108" r="14" fill="#ffe8a0" opacity="0.2"/>
+  <circle cx="375" cy="102" r="8" fill="#ffe8a0" opacity="0.9"/>
+  <circle cx="375" cy="102" r="14" fill="#ffe8a0" opacity="0.2"/>
+  <circle cx="400" cy="100" r="8" fill="#ffe8a0" opacity="0.9"/>
+  <circle cx="400" cy="100" r="14" fill="#ffe8a0" opacity="0.2"/>
+  <circle cx="425" cy="102" r="8" fill="#ffe8a0" opacity="0.9"/>
+  <circle cx="425" cy="102" r="14" fill="#ffe8a0" opacity="0.2"/>
+  <circle cx="450" cy="108" r="8" fill="#ffe8a0" opacity="0.9"/>
+  <circle cx="450" cy="108" r="14" fill="#ffe8a0" opacity="0.2"/>
+  <circle cx="475" cy="120" r="8" fill="#ffe8a0" opacity="0.9"/>
+  <circle cx="475" cy="120" r="14" fill="#ffe8a0" opacity="0.2"/>
+  <!-- Vanity light bar -->
+  <rect x="310" y="113" width="180" height="6" rx="3" fill="#2a1a08"/>
+  <!-- Vanity items on table -->
+  <rect x="305" y="245" width="18" height="30" rx="5" fill="#e0a0b0" opacity="0.8"/>
+  <rect x="330" y="248" width="14" height="25" rx="4" fill="#b0c0e0" opacity="0.8"/>
+  <rect x="350" y="250" width="22" height="20" rx="3" fill="#d0b080" opacity="0.7"/>
+  <circle cx="455" cy="258" r="12" fill="#2a1a08"/>
+  <circle cx="455" cy="258" r="8" fill="#e8d0a0" opacity="0.6"/>
+  <!-- Stool / ottoman -->
+  <ellipse cx="400" cy="345" rx="55" ry="20" fill="#4a2850"/>
+  <rect x="345" y="325" width="110" height="22" rx="11" fill="#5a3060"/>
+  <rect x="352" y="347" width="12" height="18" rx="3" fill="#2a1830"/>
+  <rect x="436" y="347" width="12" height="18" rx="3" fill="#2a1830"/>
+  <!-- Right side: tall cabinet / chest -->
+  <rect x="570" y="160" width="170" height="225" rx="4" fill="#2e1e10"/>
+  <rect x="570" y="160" width="170" height="16" rx="4" fill="#3a2818"/>
+  <!-- Cabinet drawers -->
+  <rect x="580" y="185" width="150" height="40" rx="3" fill="#2a1a0c"/>
+  <rect x="580" y="232" width="150" height="40" rx="3" fill="#2a1a0c"/>
+  <rect x="580" y="279" width="150" height="40" rx="3" fill="#2a1a0c"/>
+  <rect x="580" y="326" width="150" height="40" rx="3" fill="#2a1a0c"/>
+  <!-- Drawer handles -->
+  <rect x="645" y="202" width="20" height="6" rx="3" fill="#a08060"/>
+  <rect x="645" y="249" width="20" height="6" rx="3" fill="#a08060"/>
+  <rect x="645" y="296" width="20" height="6" rx="3" fill="#a08060"/>
+  <rect x="645" y="343" width="20" height="6" rx="3" fill="#a08060"/>
+  <!-- Decorative plant / vase on cabinet -->
+  <ellipse cx="655" cy="160" rx="18" ry="10" fill="#2a1808"/>
+  <rect x="649" y="130" width="12" height="32" rx="4" fill="#2a4010"/>
+  <ellipse cx="655" cy="128" rx="22" ry="16" fill="#386020" opacity="0.9"/>
+  <ellipse cx="643" cy="122" rx="14" ry="10" fill="#3a6822" opacity="0.8"/>
+  <ellipse cx="667" cy="124" rx="14" ry="10" fill="#3a6822" opacity="0.8"/>
+  <!-- Purple ambient glow -->
+  <rect width="800" height="500" fill="url(#br-glow)" opacity="0.8"/>
+  <!-- Vanity light glow -->
+  <rect x="280" y="90" width="240" height="180" fill="url(#br-vanity)" opacity="0.6"/>
+  <!-- Rug -->
+  <ellipse cx="400" cy="415" rx="160" ry="22" fill="rgba(120,80,140,0.18)"/>
+</svg>
