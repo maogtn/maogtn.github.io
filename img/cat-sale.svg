@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="sl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#200808"/>
+      <stop offset="100%" stop-color="#3a1010"/>
+    </linearGradient>
+    <linearGradient id="sl-floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1010"/>
+      <stop offset="100%" stop-color="#100404"/>
+    </linearGradient>
+    <linearGradient id="sl-sofa" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#666068"/>
+      <stop offset="100%" stop-color="#3a3540"/>
+    </linearGradient>
+    <linearGradient id="sl-tag" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4040"/>
+      <stop offset="100%" stop-color="#cc2020"/>
+    </linearGradient>
+    <radialGradient id="sl-spot1" cx="30%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ff6060" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ff6060" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sl-spot2" cx="70%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ffcc00" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffcc00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#sl-bg)"/>
+  <!-- Floor -->
+  <polygon points="0,370 800,330 800,500 0,500" fill="url(#sl-floor)"/>
+  <!-- Floor reflections -->
+  <line x1="0" y1="415" x2="800" y2="388" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="455" x2="800" y2="438" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <!-- Showroom floor grid (sale floor vibe) -->
+  <line x1="200" y1="370" x2="170" y2="500" stroke="rgba(255,255,255,0.015)" stroke-width="1"/>
+  <line x1="400" y1="350" x2="375" y2="500" stroke="rgba(255,255,255,0.015)" stroke-width="1"/>
+  <line x1="600" y1="340" x2="580" y2="500" stroke="rgba(255,255,255,0.015)" stroke-width="1"/>
+  <!-- Spotlights from ceiling -->
+  <line x1="200" y1="0" x2="200" y2="30" stroke="rgba(255,255,255,0.15)" stroke-width="3"/>
+  <line x1="400" y1="0" x2="400" y2="30" stroke="rgba(255,255,255,0.15)" stroke-width="3"/>
+  <line x1="600" y1="0" x2="600" y2="30" stroke="rgba(255,255,255,0.15)" stroke-width="3"/>
+  <ellipse cx="200" cy="35" rx="12" ry="6" fill="#e8e0c8"/>
+  <ellipse cx="400" cy="35" rx="12" ry="6" fill="#e8e0c8"/>
+  <ellipse cx="600" cy="35" rx="12" ry="6" fill="#e8e0c8"/>
+  <!-- Spot light cones -->
+  <polygon points="200,35 160,370 240,370" fill="rgba(255,255,255,0.025)"/>
+  <polygon points="400,35 360,350 440,350" fill="rgba(255,255,255,0.025)"/>
+  <polygon points="600,35 560,340 640,340" fill="rgba(255,255,255,0.025)"/>
+  <!-- ===== SOFA (ex-display, slightly rotated/angled) ===== -->
+  <!-- Sofa back -->
+  <rect x="155" y="225" width="330" height="100" rx="12" fill="url(#sl-sofa)"/>
+  <!-- Back cushions -->
+  <rect x="170" y="232" width="100" height="88" rx="10" fill="#706878"/>
+  <rect x="278" y="232" width="100" height="88" rx="10" fill="#706878"/>
+  <rect x="386" y="232" width="85" height="88" rx="10" fill="#706878"/>
+  <line x1="270" y1="232" x2="270" y2="320" stroke="rgba(0,0,0,0.3)" stroke-width="1.5"/>
+  <line x1="378" y1="232" x2="378" y2="320" stroke="rgba(0,0,0,0.3)" stroke-width="1.5"/>
+  <!-- Seat cushions -->
+  <rect x="160" y="318" width="315" height="60" rx="8" fill="#5a5560"/>
+  <rect x="168" y="324" width="98" height="48" rx="8" fill="#646070"/>
+  <rect x="274" y="324" width="98" height="48" rx="8" fill="#646070"/>
+  <rect x="380" y="324" width="84" height="48" rx="8" fill="#646070"/>
+  <!-- Armrests -->
+  <rect x="133" y="255" width="50" height="100" rx="10" fill="#3a3540"/>
+  <rect x="456" y="255" width="50" height="100" rx="10" fill="#3a3540"/>
+  <!-- Sofa legs -->
+  <rect x="148" y="375" width="14" height="18" rx="3" fill="#241e28"/>
+  <rect x="476" y="375" width="14" height="18" rx="3" fill="#241e28"/>
+  <rect x="248" y="375" width="12" height="16" rx="3" fill="#241e28"/>
+  <rect x="378" y="375" width="12" height="16" rx="3" fill="#241e28"/>
+  <!-- ===== PRICE TAG (big, bold) ===== -->
+  <!-- Tag string -->
+  <line x1="420" y1="210" x2="455" y2="175" stroke="#ff8080" stroke-width="2" stroke-dasharray="4,3"/>
+  <!-- Tag shape (hexagonal badge) -->
+  <polygon points="490,115 530,130 540,165 515,190 475,190 450,165 460,130" fill="url(#sl-tag)"/>
+  <polygon points="490,115 530,130 540,165 515,190 475,190 450,165 460,130" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <!-- Tag hole -->
+  <circle cx="490" cy="128" r="5" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+  <!-- Tag text: WAS -->
+  <text x="495" y="147" font-family="Arial, sans-serif" font-size="10" fill="rgba(255,220,220,0.9)" text-anchor="middle" font-weight="bold">WAS £899</text>
+  <!-- Strike through -->
+  <line x1="464" y1="147" x2="526" y2="147" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+  <!-- Tag text: NOW -->
+  <text x="495" y="162" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">NOW £499</text>
+  <!-- Tag text: SAVE -->
+  <text x="495" y="178" font-family="Arial, sans-serif" font-size="9" fill="#ffff80" text-anchor="middle" font-weight="bold">SAVE £400</text>
+  <!-- ===== SECOND ITEM - Bed frame (partial, right) ===== -->
+  <!-- Headboard right -->
+  <rect x="560" y="200" width="200" height="130" rx="10" fill="#3a2e20" opacity="0.9"/>
+  <rect x="568" y="208" width="184" height="114" rx="8" fill="#2e2418" opacity="0.8"/>
+  <!-- Tufting dots -->
+  <circle cx="612" cy="240" r="5" fill="#6a5830" opacity="0.8"/><circle cx="660" cy="240" r="5" fill="#6a5830" opacity="0.8"/><circle cx="708" cy="240" r="5" fill="#6a5830" opacity="0.8"/>
+  <circle cx="612" cy="275" r="5" fill="#6a5830" opacity="0.8"/><circle cx="660" cy="275" r="5" fill="#6a5830" opacity="0.8"/><circle cx="708" cy="275" r="5" fill="#6a5830" opacity="0.8"/>
+  <!-- Bed top surface -->
+  <rect x="555" y="322" width="215" height="52" rx="6" fill="#c8c0b0" opacity="0.7"/>
+  <rect x="555" y="322" width="215" height="18" rx="6" fill="#d8d0c0" opacity="0.7"/>
+  <!-- Bed tag -->
+  <line x1="635" y1="205" x2="660" y2="178" stroke="#ff8080" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polygon points="672,150 698,160 704,183 686,200 660,200 644,183 650,160" fill="url(#sl-tag)" opacity="0.9"/>
+  <text x="674" y="172" font-family="Arial, sans-serif" font-size="9" fill="rgba(255,220,220,0.9)" text-anchor="middle" font-weight="bold">WAS £599</text>
+  <line x1="651" y1="172" x2="697" y2="172" stroke="rgba(255,255,255,0.5)" stroke-width="1"/>
+  <text x="674" y="185" font-family="Arial, sans-serif" font-size="9.5" fill="white" text-anchor="middle" font-weight="bold">NOW £349</text>
+  <text x="674" y="196" font-family="Arial, sans-serif" font-size="8" fill="#ffff80" text-anchor="middle" font-weight="bold">SAVE £250</text>
+  <!-- ===== SALE BANNER (horizontal across top of scene) ===== -->
+  <rect x="0" y="55" width="800" height="42" fill="rgba(200,0,0,0.75)"/>
+  <text x="400" y="82" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold" letter-spacing="6">CLEARANCE SALE</text>
+  <!-- Banner stripes -->
+  <rect x="0" y="55" width="800" height="5" fill="rgba(255,255,0,0.5)"/>
+  <rect x="0" y="92" width="800" height="5" fill="rgba(255,255,0,0.5)"/>
+  <!-- Ex-display label on sofa -->
+  <rect x="168" y="380" width="90" height="20" rx="4" fill="rgba(255,200,0,0.85)"/>
+  <text x="213" y="394" font-family="Arial, sans-serif" font-size="9" fill="#1a0800" text-anchor="middle" font-weight="bold">EX-DISPLAY</text>
+  <!-- Red spotlight glows -->
+  <rect width="800" height="500" fill="url(#sl-spot1)" opacity="0.7"/>
+  <rect width="800" height="500" fill="url(#sl-spot2)" opacity="0.7"/>
+  <!-- Floor shadow under sofa -->
+  <ellipse cx="320" cy="395" rx="185" ry="18" fill="rgba(0,0,0,0.3)"/>
+</svg>
